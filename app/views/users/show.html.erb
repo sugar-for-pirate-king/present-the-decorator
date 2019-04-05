@@ -1,0 +1,10 @@
+<h1>Profile User</h1>
+
+<p><%= @user.username %></p>
+<p><%= @user.bio %></p>
+
+<%= @user.render_avatar(self) %>
+
+<p>
+  <%= @user.render_follow_button(self) %>
+</p>
